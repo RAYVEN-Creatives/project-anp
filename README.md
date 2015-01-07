@@ -3,7 +3,24 @@ Final repository for RayvenTales' Alamat ng Pinya. Let's rock! :D
 
 ---------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
-FILES DIRECTORY
-Note: Download and extract the files first before checking this list. Better if it is already linked with github (para dili na hago mag-commit+push :3)
-
-SpriteBuilder
+FILES AND DIRECTORY LIST
+Notes: 
+* Before checking this list:
+  - Download this project (check at right, click "download as zip").
+  - Extract the zip to a folder.
+  - Link the folder to GitHub using the app (for direct commit+push).
+  - Open the project in their respective applications.
+* Please add any new files/directories in this README, if any. Follow this format:
+    "< directory name > - < one-line description >
+* For name changes in a file/directory, simply edit the file/directory name from this list.
+---------------------------------------------------------------------------------------------------------------------
+SPRITEBUILDER
+ccbResources - Default folder of Spritebuilder assets. Don't remove until final deployment (just in case).
+images       - All image sprites (CCB-file not included
+pages        - All scenes in the app, except loading screen and main menu
+props        - CCB-files of the sprites
+Gameplay.ccb - Main menu of the app. Suggest change: 
+---------------------------------------------------------------------------------------------------------------------
+Xcode
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
