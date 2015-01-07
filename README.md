@@ -3,13 +3,11 @@ Notes before doing something on this project:
 ------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------
 FILES AND DIRECTORY LIST
-Notes: 
 * Before checking this list:
   - Download this project (check at right, click "download as zip").
   - Extract the zip to a folder.
   - Link the folder to GitHub using the app (for direct commit+push).
   - Open the project in their respective applications.
-* Please edit this list in case of changes/additions of the files/directories of this project.
 ------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------
 SPRITEBUILDER
