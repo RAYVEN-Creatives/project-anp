@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>47</integer>
+	<integer>48</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -33,15 +33,15 @@
 	<array>
 		<dict>
 			<key>UUID</key>
-			<integer>46</integer>
+			<integer>47</integer>
 			<key>baseClass</key>
-			<string>CCPhysicsPivotJoint</string>
+			<string>CCPhysicsSpringJoint</string>
 			<key>children</key>
 			<array/>
 			<key>customClass</key>
 			<string></string>
 			<key>displayName</key>
-			<string>CCPhysicsPivotJoint</string>
+			<string>CCPhysicsSpringJoint</string>
 			<key>memberVarAssignmentName</key>
 			<string></string>
 			<key>memberVarAssignmentType</key>
@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>366</real>
-						<real>148.00001525878906</real>
+						<real>367.9609375</real>
+						<real>141.33204650878906</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,19 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>50.000049591064453</real>
-						<real>99.000015258789062</real>
+						<real>59.528076171875</real>
+						<real>92.332046508789062</real>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>anchorB</string>
+					<key>type</key>
+					<string>Point</string>
+					<key>value</key>
+					<array>
+						<real>33.225772857666016</real>
+						<real>37.339962005615234</real>
 					</array>
 				</dict>
 				<dict>
@@ -121,24 +132,34 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>dampedSpringStiffness</string>
+					<string>restLength</string>
+					<key>type</key>
+					<string>EnabledFloat</string>
+					<key>value</key>
+					<array>
+						<real>38.209945678710938</real>
+						<false/>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>damping</string>
+					<key>type</key>
+					<string>Float</string>
+					<key>value</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>stiffness</string>
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
 					<real>4</real>
 				</dict>
-				<dict>
-					<key>name</key>
-					<string>motorMaxForce</string>
-					<key>type</key>
-					<string>FloatCheck</string>
-					<key>value</key>
-					<array>
-						<real>100</real>
-						<false/>
-					</array>
-				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1893,8 +1914,6 @@
 								<real>1</real>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
