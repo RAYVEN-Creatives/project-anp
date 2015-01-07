@@ -11,7 +11,7 @@ Notes:
   - Link the folder to GitHub using the app (for direct commit+push).
   - Open the project in their respective applications.
 * Please add any new files/directories in this README, if any. Follow this format:
-    "< directory name > - < one-line description >
+    "< directory name > - < one-line description >".
 * For name changes in a file/directory, simply edit the file/directory name from this list.
 ---------------------------------------------------------------------------------------------------------------------
 SPRITEBUILDER
