@@ -10,10 +10,15 @@ Note: Arrangement of files/directories are based on their respective application
 SpriteBuilder:
 
 ccbResources      - Default folder of Spritebuilder assets. Don't remove until final deployment (just in case).
+
 images            - All image sprites (CCB-file not included
+
 pages             - All scenes in the app, except loading screen and main menu
+
 props             - CCB-files of the sprites
+
 LoadingScreen.ccb - Loading screen of the app
+
 MainMenu.cbb      - Main menu of the app
 
 Xcode (only project-related files/directories):
